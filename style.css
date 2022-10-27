@@ -54,6 +54,20 @@ section .leftBox .content p {
   padding: 0;
 }
 
+/* type of image */
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Setting font color and font
+size of the image-caption */
+#caption {
+  font-size: 25px;
+  font-family: Gill Sans;
+  color: black;
+}
+
 /* Styling the three events section */
 section .events {
   position: relative;
