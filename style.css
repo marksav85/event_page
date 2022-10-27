@@ -5,12 +5,26 @@ body {
 }
 
 h1 {
-  color: black;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 p {
-  color:black;
-  font-size: 20px;
+  font-family: 'Raleway',sans-serif;
+
 }
 
 /* Styling section, giving background
@@ -18,8 +32,7 @@ p {
 section {
   width: 100%;
   height: 100vh;
-  background:
-url(Magdeburg.jpg);
+  background-color: #ffcc5c;
   background-size: cover;
 }
 
@@ -36,9 +49,16 @@ section .leftBox {
   left floating section */
 section .leftBox .content {
   color: #fff;
-  background: #ffef96;
+  background: #80ced6;
   padding: 40px;
   transition: .5s;
+  font-family: 'Raleway',sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+
 }
 
 /* Styling the hover effect
@@ -98,7 +118,7 @@ section .events ul li {
 section .events ul li .time {
   position: relative;
   padding: 20px;
-  background: #262626;
+  background: #622569;
   box-sizing: border-box;
   width: 30%;
   height: 100%;
@@ -150,7 +170,7 @@ section .events ul li .details h3 {
   position: relative;
   margin: 0;
   padding: 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* Styling the lists of details
@@ -159,7 +179,7 @@ section .events ul li .details p {
   position: relative;
   margin: 10px 0 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* Styling the links of details
