@@ -4,13 +4,22 @@ body {
   padding: 0;
 }
 
+h1 {
+  color: black;
+}
+
+p {
+  color:black;
+  font-size: 20px;
+}
+
 /* Styling section, giving background
   image and dimensions */
 section {
   width: 100%;
   height: 100vh;
   background:
-url();
+url(Magdeburg.jpg);
   background-size: cover;
 }
 
@@ -27,7 +36,7 @@ section .leftBox {
   left floating section */
 section .leftBox .content {
   color: #fff;
-  background: rgba(0, 0, 0, 0.5);
+  background: #ffef96;
   padding: 40px;
   transition: .5s;
 }
@@ -54,26 +63,13 @@ section .leftBox .content p {
   padding: 0;
 }
 
-/* type of image */
-img {
-  display: inline-block;
-  width: 100%;
-}
-
-/* Setting font color and font
-size of the image-caption */
-#caption {
-  font-size: 25px;
-  font-family: Gill Sans;
-  color: black;
-}
 
 /* Styling the three events section */
 section .events {
   position: relative;
   width: 50%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: #f2ae72;
   float: right;
   box-sizing: border-box;
 }
